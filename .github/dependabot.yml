@@ -16,7 +16,4 @@ updates:
     schedule:
       interval: "daily"
     registries:
-      - dockerhub 
-    ignore:
-      - dependency-name: "*"
-        versions: ["3-nginx-alpine-202312070812"]
+      - dockerhub
