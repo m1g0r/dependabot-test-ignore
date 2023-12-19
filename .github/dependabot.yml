@@ -18,6 +18,6 @@ updates:
     registries:
       - dockerhub
     ignore:
-      # For all images, ignore all major updates
-      - dependency-name: "*"
+      # For modsecurity-crs image, ignore all major updates
+      - dependency-name: "modsecurity-crs"
         update-types: ["version-update:semver-major"]
